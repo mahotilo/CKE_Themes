@@ -8,6 +8,11 @@ class CKE_Themes {
   static function CKEditorConfig($options){
 		global $addonRelativeCode;
 		self::LoadPluginConfig();
+
+		if( \gp\tool::LoggedIn() ){
+			\gp\tool\Plugins::css('CKE_Themes.css', false);
+		}
+
 		if ( self::$config['theme'] !== 'System default') {
 			$options['skin'] = self::$config['theme'].',' . $addonRelativeCode . '/themes/'.self::$config['theme'].'/';
 		}
