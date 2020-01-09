@@ -23,4 +23,4 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 ## License
 GPL 2, for bundled thirdparty components see the respective subdirectories.
 
-All themes belongs to their authors
+**All themes belongs to their authors!**
