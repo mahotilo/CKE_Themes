@@ -16,7 +16,7 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 
 ## Manual Installation ##
 1. Download the [master ZIP archive](https://github.com/mahotilo/CKE_Themes/archive/master.zip)
-2. Upload the extracted folder 'CKE_MoonoLisaM-master' to your server into the /addons directory
+2. Upload the extracted folder 'CKE_Themes-master' to your server into the /addons directory
 3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; CKE_Themes
 
 
