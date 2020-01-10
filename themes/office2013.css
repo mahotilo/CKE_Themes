@@ -1,3 +1,15 @@
 #ckeditor_wrap {
-	width: 220px !important;
+	width: 240px !important;
+}
+
+a.cke_button {
+	padding: 3px !important;
+}
+
+.cke_combo_text {
+    padding-left: 5px !important;
+}    
+
+.cke_toolgroup {
+    margin: 2px 6px 8px 0 !important;
 }
