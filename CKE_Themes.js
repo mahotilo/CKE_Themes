@@ -8,6 +8,7 @@ const styles_to_delete = [
 	'#ckeditor_area .tools',
 	'#ckeditor_area .cke_top',
 	'#ckeditor_area .cke_toolbar',
+	'#ckeditor_area .cke_toolgroup',
 	'#ckeditor_area .cke_toolgroup a.cke_button:last-child:after',
 	'#ckeditor_area a.cke_combo_button',
 	'#ckeditor_area .cke_combo_open',
