@@ -3,16 +3,7 @@ Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 
-/*overflow TS settings*/
-#ckeditor_area{
-	padding: 2px;
-}
 
-#ckeditor_area .cke_button {
-	border: inherit;
-	padding: 3px 5px;
-	height: 18px;
-}
 
 .cke_reset {
 	margin: 0;
@@ -120,7 +111,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 .cke_top {
 	border-bottom: 1px solid #d1d1d1;
 	background: #f8f8f8;
-	padding: 0px 2px;
+	padding: 6px 8px 2px;
 	white-space: normal;
 }
 
@@ -129,7 +120,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 }
 
 .cke_bottom {
-	padding: 0px 2px;
+	padding: 6px 8px 2px;
 	position: relative;
 	border-top: 1px solid #d1d1d1;
 	background: #f8f8f8
@@ -406,7 +397,7 @@ span.cke_colorbox[style*="rgb(255, 255, 255)"] {
 .cke_toolgroup {
 	border: 0;
 	float: left;
-	margin: 1px 2px 6px 0;
+    margin: 2px 0 10px 0;
 	padding-right: 3px
 }
 
@@ -430,7 +421,7 @@ span.cke_colorbox[style*="rgb(255, 255, 255)"] {
 a.cke_button {
 	display: inline-block;
 	height: 18px;
-	padding: 3px 5px;
+	padding: 4px 5px;
 	outline: 0;
 	cursor: default;
 	float: left;
