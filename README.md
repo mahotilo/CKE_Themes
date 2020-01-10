@@ -1,7 +1,7 @@
 # CKE Themes - choose theme for CKEditor in Typesetter CMS
 
 ## About
-This addon for the Typesetter CMS allows to change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins.
+This addon for the Typesetter CMS allows you to change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins.
 
 See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
 
