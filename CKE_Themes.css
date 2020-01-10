@@ -1,14 +1,3 @@
-#ckeditor_area{
-	background: #fff !important;
-}
-
-#ckeditor_area .cke,
-#ckeditor_area .cke_inner,
-#ckeditor_area .cke_top,
-#ckeditor_area .cke_toolgroup,
-#ckeditor_area a.cke_combo_button,
-#ckeditor_area a.cke_button_off:hover,
-#ckeditor_area a.cke_button_off:focus
-#ckeditor_area a.cke_button_off:active  {
-	background: initial;
+#ckeditor_top {
+	margin: -10px -10px 0 -10px;
 }
