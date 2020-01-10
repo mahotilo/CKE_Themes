@@ -9,8 +9,6 @@ class CKE_Themes_Admin{
 
   public static function Settings(){
     global $page, $addonRelativeCode, $langmessage;
-    //$page->head_js[] =    $addonRelativeCode . "/CKE_Themes_Admin.js";
-    //$page->css_admin[] =  $addonRelativeCode . "/CKE_Themes_Admin.css";
 
     if( isset($_POST['save']) ){
       msg(self::SaveConfig()); 
@@ -18,9 +16,6 @@ class CKE_Themes_Admin{
     self::LoadConfig();
     self::GetComponents();
     
-    // msg("Config: " . pre(self::$config));
-    // msg("Components: " . pre(self::$components));
-  
     $admin_url = \gp\tool::GetUrl('Admin_CKE_Themes');
 
     echo  '<h2 class="hqmargin">CKEditor Themes &raquo; Settings</h2>';
@@ -57,7 +52,6 @@ class CKE_Themes_Admin{
     echo    '<input type="button" onClick="location.href=\'' .$admin_url . '\'" value="' . $langmessage['cancel'] . '" class="gpcancel" />';
     echo  '</form>';
   }
-
 
 
 
