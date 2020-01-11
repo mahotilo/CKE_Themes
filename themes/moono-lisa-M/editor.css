@@ -387,8 +387,15 @@ span.cke_colorbox[style*="rgb(255, 255, 255)"] {
 }
 
 .cke_toolbar {
-	float: left
+	float: left;
+    width: 100%;
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd
 }
+
+.cke_toolbar:last-child {
+    border: 0;
+}	
 
 .cke_rtl .cke_toolbar {
 	float: right
@@ -397,7 +404,6 @@ span.cke_colorbox[style*="rgb(255, 255, 255)"] {
 .cke_toolgroup {
 	border: 0;
 	float: left;
-    margin: 2px 0 10px 0;
 	padding-right: 3px
 }
 
@@ -886,7 +892,7 @@ a.cke_toolbox_collapser {
 	display: inline-block;
 	float: left;
 	position: relative;
-	margin: 0 0 5px 3px;
+	margin-left: 5px;
 }
 
 .cke_rtl .cke_combo {
