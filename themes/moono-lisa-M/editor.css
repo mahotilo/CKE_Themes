@@ -111,7 +111,7 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 .cke_top {
 	border-bottom: 1px solid #d1d1d1;
 	background: #f8f8f8;
-	padding: 6px 8px 2px;
+	padding: 6px 4px 2px;
 	white-space: normal;
 }
 
@@ -390,7 +390,7 @@ span.cke_colorbox[style*="rgb(255, 255, 255)"] {
 	float: left;
     width: 100%;
     padding: 6px 0;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #cfd8dc
 }
 
 .cke_toolbar:last-child {
@@ -946,8 +946,8 @@ a.cke_combo_button {
 .cke_combo_off a.cke_combo_button:hover,
 .cke_combo_off a.cke_combo_button:focus,
 .cke_combo_off a.cke_combo_button:active {
-	background: #e5e5e5;
-	border: 1px solid #bcbcbc;
+	background: #CFD8DC;
+    border: 1px solid #B0BEC5;
 	padding: 0 0 0 1px;
 	margin-left: -1px
 }
