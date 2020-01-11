@@ -21,20 +21,40 @@ const styles_to_delete = [
 	'#ckeditor_area .cke_toolbar_start, #ckeditor_area .cke_toolbar_end'	
 ];
 
+const style_to_insert = '#ckeditor_top {margin: -10px -10px 0 -10px;}';
+const style_to_clear = '#ckeditor_top';
+
 $(function(){
 	$(document).on('editor_area:loaded', function(){
-		CKEDITOR.on("instanceReady", function(event) {
-			for (var j=0; j<document.styleSheets.length; j++) {
-				sheet = document.styleSheets[j];
-				if (sheet.cssRules) { // all browsers, except IE before version 9
-					for (var i=0; i<sheet.cssRules.length; i++) {
-						if (styles_to_delete.includes(sheet.cssRules[i].selectorText)) {
-							sheet.deleteRule(i);
-							i--;
+		if (typeof CKEDITOR !== 'undefined') {
+			CKEDITOR.on("instanceReady", function(event) {
+				sheet = document.styleSheets[0];
+				sheet.insertRule(style_to_insert);
+				
+				for (var j=0; j<document.styleSheets.length; j++) {
+					sheet = document.styleSheets[j];
+					if (sheet.cssRules) { // all browsers, except IE before version 9
+						for (var i=0; i<sheet.cssRules.length; i++) {
+							if (styles_to_delete.includes(sheet.cssRules[i].selectorText)) {
+								sheet.deleteRule(i);
+								i--;
+							}
 						}
 					}
-				}	
-			}			
-		});	
+				}
+			});	
+
+			CKEDITOR.on("instanceDestroyed", function(event) {
+				sheet = document.styleSheets[0];
+				for (var i=0; i<sheet.cssRules.length; i++) {
+					if ( sheet.cssRules[i] === style_to_clear ) {
+						sheet.deleteRule(i);
+						break;
+					}
+				}
+				
+			});
+		}
+
 	});
 });
