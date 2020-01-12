@@ -26,17 +26,17 @@ GPL 2, for bundled thirdparty components see the respective subdirectories.
 **All themes belongs to their authors!**
 
 ## Demo ##
-icy_orange.png
-demo/icy_orange.png
+### icy_orange ###
+![image](demo/icy_orange.png)
 
-moono-dark
-demo/moono-dark.png
+### moono-dark ###
+![image](demo/moono-dark.png)
 
-moono-lisa-M
-demo/moono-lisa-M.png
+### moono-lisa-M ###
+![image](demo/moono-lisa-M.png)
 
-office2013
-demo/office2013.png
+### office2013 ###
+![image](demo/office2013.png)
 
-silver
-demo/silver.png
+### silver ###
+![image](demo/silver.png)
