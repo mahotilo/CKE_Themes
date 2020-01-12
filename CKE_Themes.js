@@ -23,7 +23,8 @@ const css_to_delete = [
 
 
 $(function(){
-	$(document).on('editor_area:loaded', function(){
+	//$(document).on('editor:loaded', function(evt, data){} data == source section
+	$(document).on('editor:loaded', function(){
 		if (typeof CKEDITOR !== 'undefined') {
 			CKEDITOR.on('instanceReady', function(event) {
 				for (var j=0; j<document.styleSheets.length; j++) {
