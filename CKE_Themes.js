@@ -1,7 +1,8 @@
 const css_to_delete = [
 	['#gp_admin_html a *','color'],
 	['#gp_admin_html *','line-height'],
-	['#ckeditor_area a, #ckeditor_area a:hover, #ckeditor_area a:focus',''],
+
+	['#ckeditor_area a, #ckeditor_area a:hover, #ckeditor_area a:focus','color'],
 	['#ckeditor_area .cke_chrome',''],
 	['#ckeditor_area .cke_inner',''],
 	['#ckeditor_area .tools',''],
