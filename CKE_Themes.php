@@ -11,6 +11,7 @@ class CKE_Themes {
 
 		if ( self::$config['theme'] !== 'System default') {
 			$options['skin'] = self::$config['theme'].',' . $addonRelativeCode . '/themes/'.self::$config['theme'].'/';
+			\gp\tool\Plugins::css('CKE_Themes.css', false);
 
 			$css_aux = '/themes/'.self::$config['theme'].'.css';
 			if ( file_exists($addonPathCode . $css_aux)) {
