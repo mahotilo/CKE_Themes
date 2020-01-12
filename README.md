@@ -24,3 +24,19 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 **All themes belongs to their authors!**
+
+## Demo ##
+icy_orange.png
+demo/icy_orange.png
+
+moono-dark
+demo/moono-dark.png
+
+moono-lisa-M
+demo/moono-lisa-M.png
+
+office2013
+demo/office2013.png
+
+silver
+demo/silver.png
