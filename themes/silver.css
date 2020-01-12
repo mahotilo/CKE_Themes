@@ -16,4 +16,10 @@ body.gpAdmin #gp_admin_html #ckeditor_wrap {
 .cke_dialog_ui_button{
 	width: auto !important;
 	padding: 2px 20px !important;
+	vertical-align: text-bottom;
+}
+
+select.cke_dialog_ui_input_select {
+	border: none;
+	width: 100%;
 }
