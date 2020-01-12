@@ -9,6 +9,8 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 ## Current Version 
 2.4
 
+**Attantion! Development version. It works only with still unpublished patch for TS 5.2**
+
 
 ## Requirements ##
 * Typesetter CMS 5.2+
