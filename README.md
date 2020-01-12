@@ -29,6 +29,9 @@ GPL 2, for bundled thirdparty components see the respective subdirectories.
 ### icy_orange ###
 ![image](demo/icy_orange.png)
 
+### kama ###
+![image](demo/kama.png)
+
 ### moono-dark ###
 ![image](demo/moono-dark.png)
 
