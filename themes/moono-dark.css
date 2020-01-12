@@ -1,7 +1,9 @@
 #ckeditor_wrap {
 	width: 252px !important;
+    background: #212121 !important;
+    color: white;
 }
 
 .cke_combo_text {
     padding-left: 5px !important;
-}    
+}
