@@ -1079,7 +1079,6 @@ a.cke_combo_button {
 
 .cke_combo_text {
 	line-height: 26px;
-/**/padding: 4px 0 0 4px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	float: left;
