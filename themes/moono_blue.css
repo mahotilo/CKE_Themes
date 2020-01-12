@@ -1,6 +1,6 @@
-#ckeditor_wrap {
-	width: 250px !important;
-	background: #cfcfff !important;
+body.gpAdmin #gp_admin_html #ckeditor_wrap {
+	width: 250px;
+	background: #cfcfff;
 }
 
 .cke_combo_text {

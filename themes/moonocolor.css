@@ -1,6 +1,7 @@
-#ckeditor_wrap {
-	width: 250px !important;
+body.gpAdmin #gp_admin_html #ckeditor_wrap {
+	width: 250px;
 }
+
 
 .cke_combo_text {
     padding-left: 5px !important;

@@ -1,6 +1,6 @@
-#ckeditor_wrap {
-	width: 240px !important;
-	background: #ffffff !important;
+body.gpAdmin #gp_admin_html #ckeditor_wrap {
+	width: 240px;
+	background: #ffffff;
 }
 
 a.cke_button {

@@ -1,6 +1,6 @@
-#ckeditor_wrap {
-	width: 252px !important;
-    background: #212121 !important;
+body.gpAdmin #gp_admin_html #ckeditor_wrap {
+	width: 252px;
+    background: #212121;
     color: white;
 }
 
