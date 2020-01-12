@@ -1,0 +1,14 @@
+body.gpAdmin #gp_admin_html #ckeditor_wrap {
+	/*width: 220px;*/
+	background: #eeeeee;	
+}
+
+
+.cke_combo_button {
+	padding: 0 0 0 8px !important;	
+}
+
+.cke_combo_open {
+	width: 12px !important;
+}
+
