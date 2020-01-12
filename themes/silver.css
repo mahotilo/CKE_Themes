@@ -12,3 +12,8 @@ body.gpAdmin #gp_admin_html #ckeditor_wrap {
 	width: 12px !important;
 }
 
+
+.cke_dialog_ui_button{
+	width: auto !important;
+	padding: 2px 20px !important;
+}
