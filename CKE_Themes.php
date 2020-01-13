@@ -9,8 +9,13 @@ class CKE_Themes {
 		global $addonRelativeCode,$addonPathCode;
 		self::LoadPluginConfig();
 
+		$options['sharedSpaces'] = array('top' => 'ckeditor_top','bottom' => 'ckeditor_bottom');
+		$options['removePlugins'] = 'floatingspace,maximize,resize';
 		if ( self::$config['theme'] !== 'System default') {
 			$options['skin'] = self::$config['theme'].',' . $addonRelativeCode . '/themes/'.self::$config['theme'].'/';
+//			$options['sharedSpaces'] = array('top' => 'ckeditor_top','bottom' => 'ckeditor_bottom');
+
+
 			\gp\tool\Plugins::css('CKE_Themes.css', false);
 
 			$css_aux = '/themes/'.self::$config['theme'].'.css';

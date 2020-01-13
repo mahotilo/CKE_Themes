@@ -1,3 +1,7 @@
-.cke {
+#ckeditor_top .cke {
 	margin: -10px -10px 0 -10px !important;
+}
+
+#ckeditor_bottom {
+	margin: 0 -10px !important;
 }
