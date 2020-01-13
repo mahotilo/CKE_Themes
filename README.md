@@ -10,11 +10,11 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 2.6
 
 
-## Requirements ##
+## Requirements
 * Typesetter CMS 5.2+
 
 
-## Manual Installation ##
+## Manual Installation
 1. Download the [master ZIP archive](https://github.com/mahotilo/CKE_Themes/archive/master.zip)
 2. Upload the extracted folder 'CKE_Themes-master' to your server into the /addons directory
 3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; CKE_Themes
@@ -23,23 +23,38 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 ## License
 GPL 2, for bundled thirdparty components see the respective subdirectories.
 
+## Available themes
 **All themes belongs to their authors!**
 
-## Demo ##
-### icy_orange ###
+* bootstrapck
+* flat
+* icy_orange
+* kama
+* minimalist
+* moono
+* moono-dark
+* moono-lisa-M
+* moono_blue
+* moonocolor
+* office2013
+* silver
+
+
+## Demo
+### icy_orange
 ![image](demo/icy_orange.png)
 
-### kama ###
+### kama
 ![image](demo/kama.png)
 
-### moono-dark ###
+### moono-dark
 ![image](demo/moono-dark.png)
 
-### moono-lisa-M ###
+### moono-lisa-M
 ![image](demo/moono-lisa-M.png)
 
-### office2013 ###
+### office2013
 ![image](demo/office2013.png)
 
-### silver ###
+### silver
 ![image](demo/silver.png)
