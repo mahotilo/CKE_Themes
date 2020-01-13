@@ -933,8 +933,10 @@ a.cke_toolbox_collapser {
 a.cke_combo_button {
 	cursor: default;
 	display: inline-block;
+    border: 1px solid transparent;
 	float: left;
 	margin: 0;
+	padding: 0 0 0 3px;
 }
 
 .cke_rtl a.cke_combo_button {
@@ -951,8 +953,6 @@ a.cke_combo_button {
 .cke_combo_off a.cke_combo_button:active {
 	background: #CFD8DC;
     border: 1px solid #B0BEC5;
-	padding: 0 0 0 1px;
-	margin-left: -1px
 }
 
 .cke_combo_off a.cke_combo_button:focus {
@@ -993,7 +993,6 @@ a.cke_combo_button {
 .cke_toolbar_start+.cke_combo_off a.cke_combo_button:focus,
 .cke_toolbar_start+.cke_combo_off a.cke_combo_button:active {
 	padding: 0 0 0 3px;
-	margin-left: -3px
 }
 
 .cke_rtl .cke_toolbar_start+.cke_combo_on a.cke_combo_button,
