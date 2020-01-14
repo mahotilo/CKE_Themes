@@ -1,13 +1,15 @@
 # [CKE Themes](https://github.com/mahotilo/CKE_Themes) - choose a theme for CKEditor in Typesetter CMS
 
 ## About
-This addon for the Typesetter CMS allows you to change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins.
+This addon for the Typesetter CMS allows you to
+* to change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins
+* show bottom CKEditor 4 panel with a list of HTML element names in the current cursor position
 
 See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
 
 
 ## Current Version 
-2.6
+3.0
 
 
 ## Requirements
@@ -58,3 +60,6 @@ GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 ### silver
 ![image](demo/silver.png)
+
+### Bottom panel on
+![image](demo/bottom_panel.png)

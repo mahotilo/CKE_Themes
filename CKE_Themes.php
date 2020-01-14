@@ -9,7 +9,7 @@ class CKE_Themes {
 		global $addonRelativeCode,$addonPathCode;
 		self::LoadPluginConfig();
 
-		if ( self::$config['theme'] !== 'System default') {
+		if ( self::$config['theme'] !== 'System default' ) {
 			$options['skin'] = self::$config['theme'].',' . $addonRelativeCode . '/themes/'.self::$config['theme'].'/';
 
 			\gp\tool\Plugins::css('CKE_Themes.css', false);
@@ -19,8 +19,21 @@ class CKE_Themes {
 				\gp\tool\Plugins::css($css_aux, false);
 			}	
 		}
+
 		return $options;
 	}
+
+
+	public static function InlineEdit_Scripts($scripts, $type){
+		self::LoadPluginConfig();
+		
+		if ( self::$config['bottom_panel'] == '1' && $type === 'text' ) {
+			$scripts[]=array('code' => 'gp_ckconfig.sharedSpaces = {top: "ckeditor_top", bottom: "ckeditor_bottom"};
+										gp_ckconfig.removePlugins = "floatingspace,maximize,resize";');
+		}
+		return $scripts;
+	}
+
 
 
 	public static function GetHead(){
