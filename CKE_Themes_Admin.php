@@ -44,11 +44,11 @@ class CKE_Themes_Admin{
     echo          '</td>';
     echo        '</tr>';
 
-    $checked = self::$config['bottom_panel'] == '1' ? ' checked="checked" ' : '';
+    $checked = self::$config['bottom_bar'] == '1' ? ' checked="checked" ' : '';
     echo        '<tr>';
-    echo          '<td>Show CKEditor bottom panel</td>';
+    echo          '<td>Show CKEditor bottom bar</td>';
     echo          '<td>';
-    echo              '<input type="checkbox" name="cketconfig[bottom_panel]" value="1" ' . $checked . '/>';
+    echo              '<input type="checkbox" name="cketconfig[bottom_bar]" value="1" ' . $checked . '/>';
     echo          '</td>';
     echo        '</tr>';
 
@@ -68,7 +68,7 @@ class CKE_Themes_Admin{
     global $page, $addonPathCode;
     self::$components = array( 
       'themes' => array(),
-	  'bottom_panel' => '0',
+	  'bottom_bar' => '0',
     );
     $dirs = \gp\tool\Files::ReadDir($addonPathCode . '/themes/', 1);
 	foreach( $dirs as $dir ){
@@ -88,7 +88,7 @@ class CKE_Themes_Admin{
     }else{
 		$config = array (
 		  'theme' => 'System default',
-		  'bottom_panel' => '0',
+		  'bottom_bar' => '0',
 		);
     }
     self::$config = $config;
@@ -100,15 +100,15 @@ class CKE_Themes_Admin{
     global $addonPathData, $langmessage;
     $config = array (
       'theme' => 'System default',
-      'bottom_panel' => '0',
+      'bottom_bar' => '0',
     );
     foreach ($_POST['cketconfig'] as $key => $value) {
       switch($key){
         case 'theme':
           $config['theme'] = basename(trim($value)); 
           break;
-        case 'bottom_panel':
-          $config['bottom_panel'] = '1'; 
+        case 'bottom_bar':
+          $config['bottom_bar'] = '1'; 
           break;
         default:
       }

@@ -27,7 +27,7 @@ class CKE_Themes {
 	public static function InlineEdit_Scripts($scripts, $type){
 		self::LoadPluginConfig();
 		
-		if ( self::$config['bottom_panel'] == '1' && $type === 'text' ) {
+		if ( self::$config['bottom_bar'] == '1' && $type === 'text' ) {
 			$scripts[]=array('code' => 'gp_ckconfig.sharedSpaces = {top: "ckeditor_top", bottom: "ckeditor_bottom"};
 										gp_ckconfig.removePlugins = "floatingspace,maximize,resize";');
 		}
