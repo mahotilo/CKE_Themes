@@ -22,9 +22,6 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; CKE_Themes
 
 
-## License
-GPL 2, for bundled thirdparty components see the respective subdirectories.
-
 ## Available themes
 **All themes belongs to their authors!**
 
@@ -63,3 +60,6 @@ GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 ### Bottom bar on
 ![image](demo/bottom_bar.png)
+
+## License
+GPL 2, for bundled thirdparty components see the respective subdirectories.
