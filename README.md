@@ -2,7 +2,7 @@
 
 ## About
 This addon for the Typesetter CMS allows you to
-* to change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins
+* change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins
 * show bottom CKEditor 4 panel with a list of HTML element names in the current cursor position
 
 See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
