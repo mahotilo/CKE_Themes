@@ -43,22 +43,22 @@ GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 
 ## Demo
-### icy_orange
+### Theme 'icy_orange'
 ![image](demo/icy_orange.png)
 
-### kama
+### Theme 'kama'
 ![image](demo/kama.png)
 
-### moono-dark
+### Theme 'moono-dark'
 ![image](demo/moono-dark.png)
 
-### moono-lisa-M
+### Theme 'moono-lisa-M'
 ![image](demo/moono-lisa-M.png)
 
-### office2013
+### Theme 'office2013'
 ![image](demo/office2013.png)
 
-### silver
+### Theme 'silver'
 ![image](demo/silver.png)
 
 ### Bottom panel on
