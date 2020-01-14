@@ -2,3 +2,7 @@ body.gpAdmin #gp_admin_html #ckeditor_wrap {
 	width: 230px;
 	background: #fdfdfd;
 }
+
+#ckeditor_bottom .cke_bottom {
+	height: 30px;	
+}

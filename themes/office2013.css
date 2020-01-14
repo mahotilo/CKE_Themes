@@ -14,3 +14,7 @@ a.cke_button {
 .cke_toolgroup {
     margin: 2px 6px 8px 0 !important;
 }
+
+.cke_bottom {
+    background: none !important;;
+}

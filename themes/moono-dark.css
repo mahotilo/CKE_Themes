@@ -7,3 +7,15 @@ body.gpAdmin #gp_admin_html #ckeditor_wrap {
 .cke_combo_text {
     padding-left: 5px !important;
 }
+
+#ckeditor_bottom .cke_bottom {
+	background: #212121;
+	box-shadow: none;
+	border: none;
+}
+
+#gp_admin_html #ckeditor_area a,
+#gp_admin_html #ckeditor_area a:visited,
+#gp_admin_html #ckeditor_area a:hover {
+    color: white;	
+}

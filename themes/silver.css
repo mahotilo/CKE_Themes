@@ -23,3 +23,7 @@ select.cke_dialog_ui_input_select {
 	border: none;
 	width: 100%;
 }
+
+#ckeditor_bottom .cke_bottom {
+	height: 25px;	
+}
