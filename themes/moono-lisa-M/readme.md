@@ -1,6 +1,11 @@
-"Moono-lisa-M" Skin
-=================
-This skin is made as an adaptation of the "Moono-lisa" skin from CKEditor 4.6.0 for Typesetter CMS
+"Moono-lisa-M"
+===============================
+ CKEditor Skin for Typesetter CMS by Mahotilo
+ https://github.com/mahotilo/CKE_Themes
+===============================
+
+This skin based on the "Moono-lisa" skin from CKEditor 4.6.0
+It have adapted css styles and js settings, and also proposes advanced image preview
 
 ============================================================================
 This skin has been made a **default skin** starting from CKEditor 4.6.0 and is maintained by the core developers.
