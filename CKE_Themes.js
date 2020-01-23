@@ -23,27 +23,31 @@ const css_to_delete = [
 
 
 $(function(){
-	//$(document).on('editor:loaded', function(evt, data){} data == source section
 	$(document).on('editor:loaded', function(){
 		if (typeof CKEDITOR !== 'undefined') {
 			for (var j=0; j<document.styleSheets.length; j++) {
 				sheet = document.styleSheets[j];
-				if (sheet.cssRules) { // all browsers, except IE before version 9
-					for (var i=0; i<sheet.cssRules.length; i++) {
-						for (var k=0; k<css_to_delete.length; k++) {
-							if (css_to_delete[k][0] == sheet.cssRules[i].selectorText) {
-								if ( css_to_delete[k][1] == '' ) {
-									sheet.deleteRule(i);
-									i--;
-								} else {
-									for (var l=1; l<css_to_delete[k].length; l++) {
-										sheet.cssRules[i].style.removeProperty(css_to_delete[k][l]);
-									}	
+				try { //protection against Chrome 'access' error when processing external css, e.g. Google fonts
+					if (sheet.cssRules) { // all browsers, except IE before version 9
+						for (var i=0; i<sheet.cssRules.length; i++) {
+							for (var k=0; k<css_to_delete.length; k++) {
+								if (css_to_delete[k][0] == sheet.cssRules[i].selectorText) {
+									if ( css_to_delete[k][1] == '' ) {
+										sheet.deleteRule(i);
+										i--;
+									} else {
+										for (var l=1; l<css_to_delete[k].length; l++) {
+											sheet.cssRules[i].style.removeProperty(css_to_delete[k][l]);
+										}	
+									}
 								}
-							}
-						}	
+							}	
+						}
 					}
 				}
+				catch(error) {
+					continue;
+				}				
 			}
 		}
 	});
