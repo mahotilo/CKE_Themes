@@ -9,7 +9,7 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 
 
 ## Current Version 
-3.1
+3.2
 
 
 ## Requirements
