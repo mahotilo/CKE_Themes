@@ -6,18 +6,11 @@ class CKE_Themes {
 
   /* hook */
 	public static function CKEditorConfig($options){
-		global $addonRelativeCode,$addonPathCode;
+		global $addonRelativeCode;
 		self::LoadPluginConfig();
 
 		if ( self::$config['theme'] !== 'System default' ) {
 			$options['skin'] = self::$config['theme'].',' . $addonRelativeCode . '/themes/'.self::$config['theme'].'/';
-
-			\gp\tool\Plugins::css('CKE_Themes.css', false);
-
-			$css_aux = '/themes/'.self::$config['theme'].'.css';
-			if ( file_exists($addonPathCode . $css_aux)) {
-				\gp\tool\Plugins::css($css_aux, false);
-			}	
 		}
 
 		return $options;
@@ -37,12 +30,19 @@ class CKE_Themes {
 
 
 	public static function GetHead(){
-		global $page, $addonRelativeCode;
+		global $page, $addonRelativeCode, $addonPathCode;
 		self::LoadPluginConfig();
 
 		if( \gp\tool::LoggedIn() ){
 			if ( self::$config['theme'] !== 'System default') {
 				$page->head_js[]  = $addonRelativeCode . '/CKE_Themes.js';
+
+				\gp\tool\Plugins::css('CKE_Themes.css', false);
+
+				$css_aux = '/themes/'.self::$config['theme'].'.css';
+				if ( file_exists($addonPathCode . $css_aux)) {
+					\gp\tool\Plugins::css($css_aux, false);
+				}	
 			}
 		}
 	}
