@@ -5,3 +5,7 @@
 #ckeditor_bottom {
 	margin: 0 -10px !important;
 }
+
+.cke_reset_all .CodeMirror-scroll * {
+    font-size: 1rem;
+}    

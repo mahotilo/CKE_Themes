@@ -4,6 +4,7 @@
 This addon for the Typesetter CMS allows you to
 * change the default theme of CKEditor 4 to one from https://ckeditor.com/cke4/addons/skins
 * show CKEditor 4 bottom bar with a list of HTML element names in the current cursor position
+* make font size in CodeMirror equal to 1rem (bigger)
 
 See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
 
