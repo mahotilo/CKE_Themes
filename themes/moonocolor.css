@@ -1,4 +1,4 @@
-body.gpAdmin #gp_admin_html #ckeditor_wrap {
+body.gpAdmin #gp_admin_html #ckeditor_wrap.overrule_editor_expanded {
 	width: 250px;
 }
 
