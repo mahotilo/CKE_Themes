@@ -1,4 +1,4 @@
-# [CKE Themes](https://github.com/mahotilo/CKE_Themes) - choose custom theme for CKEditor in Typesetter CMS
+# [CKE Themes](https://github.com/mahotilo/CKE_Themes) - choose a theme for CKEditor in Typesetter CMS
 
 ## About
 This addon for the Typesetter CMS allows you to
@@ -10,7 +10,7 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 
 
 ## Current Version 
-3.3
+3.4
 
 
 ## Requirements
