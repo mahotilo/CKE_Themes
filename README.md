@@ -59,7 +59,7 @@ See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub]
 ### Theme 'silver'
 ![image](demo/silver.png)
 
-### Bottom bar on
+### Option 'Bottom bar' - On
 ![image](demo/bottom_bar.png)
 
 ## License
